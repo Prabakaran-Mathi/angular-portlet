@@ -12,7 +12,7 @@
 			<tr ng-repeat="bookmark in model.bookmarks track by $index">
 				<td>{{bookmark.entryId}}</td>
 				<td>{{bookmark.name}}</td>
-				<td><a ng-click="detail(bookmark);" i18n="action.detail"></a> | <a ng-click="delete(bookmark);" i18n="action.delete"></a></td>
+				<td><a ng-click="detail(bookmark);" i18n="action.detail"></a> | <a ng-click="remove(bookmark);" i18n="action.delete"></a></td>
 			</tr>
 		</tbody>
 	</ul>
