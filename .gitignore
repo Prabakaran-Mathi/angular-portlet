@@ -15,6 +15,5 @@ target
 hs_err_pid*
 
 #eclipse stuff
-/.project
 /.classpath
 /.settings/
