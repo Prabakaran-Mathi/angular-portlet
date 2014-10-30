@@ -27,6 +27,14 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>com.liferay.maven.plugins</groupId>
+				<artifactId>liferay-maven-plugin</artifactId>
+				<version>${liferay.maven.plugin.version}</version>
+				<configuration>
+					<appServerPortalDir>${liferay.app.server.portal.dir}</appServerPortalDir>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
